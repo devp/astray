@@ -9,7 +9,10 @@
       "<Tab>": "NavigateNextTab",
       "<BackTab>": "NavigatePrevTab",
       "<Alt-r>": "MainAction",
-      "<Alt-f>": "SecondaryAction"
+      "<Alt-f>": "SecondaryAction",
+      "<s>": "StartSelecting",
+      "<r>": "MainAction",
+      "<f>": "SecondaryAction"
     },
     "SelectingBodyInSystemTree": {
       "<Up>": "SelectPrevious",
