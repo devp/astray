@@ -11,7 +11,7 @@ mod constants {
 
     pub static STAR_NAMES: Lazy<Vec<String>> = Lazy::new(|| {
         fs::read_to_string("./assets/namelists/star_namelist.txt").unwrap
-        ().split("\r\n").map(|s| s.to_string()).collect()
+        ().split("\n").map(|s| s.to_string()).collect()
     });
 }
 
